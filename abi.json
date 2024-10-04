@@ -1,0 +1,37 @@
+{
+  "inputs": [
+    {
+      "name": "glucose_level",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "cholesterol_level",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "min_glucose",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "max_glucose",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "min_cholesterol",
+      "public": true,
+      "type": "field"
+    },
+    {
+      "name": "max_cholesterol",
+      "public": true,
+      "type": "field"
+    }
+  ],
+  "output": {
+    "type": "field"
+  }
+}

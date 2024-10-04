@@ -1,0 +1,25 @@
+def main(
+    private field glucose_level, 
+    private field cholesterol_level, 
+    field min_glucose, 
+    field max_glucose, 
+    field min_cholesterol, 
+    field max_cholesterol
+) -> field {
+    // Check if glucose level is within the healthy range
+    field glucose_check_min = if glucose_level >= min_glucose { 1 } else { 0 };
+    field glucose_check_max = if glucose_level <= max_glucose { 1 } else { 0 };
+
+    // Check if cholesterol level is within the healthy range
+    field cholesterol_check_min = if cholesterol_level >= min_cholesterol { 1 } else { 0 };
+    field cholesterol_check_max = if cholesterol_level <= max_cholesterol { 1 } else { 0 };
+
+    // Ensure both glucose and cholesterol checks pass
+    assert(glucose_check_min == 1);
+    assert(glucose_check_max == 1);
+    assert(cholesterol_check_min == 1);
+    assert(cholesterol_check_max == 1);
+
+    // Return 1 if all checks pass (as a signal of success)
+    return 1;
+}
