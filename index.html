@@ -1,0 +1,40 @@
+//index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Data Verification</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.0/web3.min.js"></script> <!-- Web3.js -->
+    <script src="app.js" defer></script> <!-- Link to the JS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>Health Data Verification</h1>
+        <form id="healthForm">
+            <label for="glucose">Glucose Level:</label>
+            <input type="number" id="glucose" required><br>
+
+            <label for="cholesterol">Cholesterol Level:</label>
+            <input type="number" id="cholesterol" required><br>
+
+            <label for="min_glucose">Min Glucose:</label>
+            <input type="number" id="min_glucose" required><br>
+
+            <label for="max_glucose">Max Glucose:</label>
+            <input type="number" id="max_glucose" required><br>
+
+            <label for="min_cholesterol">Min Cholesterol:</label>
+            <input type="number" id="min_cholesterol" required><br>
+
+            <label for="max_cholesterol">Max Cholesterol:</label>
+            <input type="number" id="max_cholesterol" required><br>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <p id="result"></p>
+    </div>
+</body>
+</html>
