@@ -3,6 +3,9 @@
 
  The project's objective is to develop a system that ensures the confidentiality of sensitive blood test results using Zero-Knowledge Proofs (ZKP), enabling data validation without revealing actual test data. By integrating zk-SNARKs with Ethereum smart contracts, the system will provide secure and decentralized verification of blood test results while maintaining patient privacy. It also aims to optimize transaction gas costs in Ethereum-based healthcare consortia through efficient use of zk-SNARKs, reducing computational overhead. The solution will leverage blockchain for immutability and transparency while keeping costs manageable, and offer a user-friendly interface for both patients and healthcare providers.
 
+# Architecture 
+
+![image](https://github.com/user-attachments/assets/9944daf0-73fe-41e0-a84d-1c5e6dfacec8)
 
 # zk-SNARK Setup with ZoKrates
 
