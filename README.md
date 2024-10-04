@@ -34,7 +34,7 @@ zokrates compute-witness -a <values>
 ```
 Example:
 ```bash
-zokrates compute-witness -a 100 150
+zokrates compute-witness -a 100 150 90 150 100 200
 ```
 
 ## Generating the Proof
